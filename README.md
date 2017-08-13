@@ -12,6 +12,6 @@ A refresh will clear inputs :laughing: :laughing:
 
 
 
-![Preview](https://github.com/bayoishola20/converter/assets/img/bayoishola20_converter.png "Preview")
+![Preview](https://github.com/bayoishola20/converter/blob/master/assets/img/bayoishola20_converter.png "Preview")
 
 [bayoishola20](https://github.com/bayoishola20/)
