@@ -23,6 +23,7 @@
         <div class="container">
         	<div class="row">
         		<div class="col-md-10 offset-md-1">
+                    <p class="text-center"><i class="fa fa-balance-scale" aria-hidden="true"></i></p>
         			<h1 class="display-4 text-center">Converter</h1>
         			<form>
         				<fieldset class="form-group">
@@ -121,7 +122,7 @@
         		document.getElementById("toConvert").addEventListener('input', function (e) {
         		document.getElementById("result").style.visibility = "visible";
         		let grams = e.target.value;
-        		document.getElementById("gramsResult").innerHTML = grams + "<sub>g</sub>";
+        		document.getElementById("gramsResult").innerHTML = grams*1 + "<sub>g</sub>";
 
         		document.getElementById("kgResult").innerHTML = grams*0.001 + "<sub>kg</sub>";
 
@@ -141,7 +142,7 @@
         		let kilograms = e.target.value;
         		document.getElementById("gramsResult").innerHTML = kilograms*1000 + "<sub>g</sub>";
 
-        		document.getElementById("kgResult").innerHTML = kilograms + "<sub>kg</sub>";
+        		document.getElementById("kgResult").innerHTML = kilograms*1 + "<sub>kg</sub>";
 
         		document.getElementById("ounceResult").innerHTML = kilograms*35.274 + "<sub>oz</sub>";
 
@@ -160,7 +161,7 @@
 
         		document.getElementById("kgResult").innerHTML = ounces*0.0283495 + "<sub>kg</sub>";
 
-        		document.getElementById("ounceResult").innerHTML = ounces + "<sub>oz</sub>";
+        		document.getElementById("ounceResult").innerHTML = ounces*1 + "<sub>oz</sub>";
 
         		document.getElementById("poundsResult").innerHTML = ounces*0.0625 + "<sub>lbs</sub>";
         	});
@@ -180,7 +181,7 @@
 
         		document.getElementById("ounceResult").innerHTML = pounds*60 + "<sub>oz</sub>";
 
-        		document.getElementById("poundsResult").innerHTML = pounds + "<sub>lbs</sub>";
+        		document.getElementById("poundsResult").innerHTML = pounds*1 + "<sub>lbs</sub>";
         	});
         	}
 
